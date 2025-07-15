@@ -30,7 +30,7 @@ We analyzed over **80,000 YouTube comments** related to autonomous vehicle techn
 .
 ├── comments.csv                    # Raw YouTube comments dataset
 ├── comments_with_sentiment.csv    # Output from VADER sentiment analysis
-├── comments_with_bert_sentiment.csv # Output from BERT sentiment classification
+├── comments_with_bert_sentiment.xlsx # Output from BERT sentiment classification
 ├── Youtube_Comments_Sentiment_Analysis.ipynb       # Complete Jupyter notebook (cleaned, final version)
 ├── lda_topic_visualization.html   # Interactive topic explorer using pyLDAvis
 └── README.md                      # This file
