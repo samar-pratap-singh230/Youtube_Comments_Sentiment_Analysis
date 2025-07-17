@@ -1,4 +1,4 @@
-# 🚘 Sentiment Analysis of Public Perception on Self-Driving Cars using BERT and LDA
+# 🚘 Sentiment Analysis of Public Perception on Self-Driving Cars using BERT, VADER, and LDA
 
 This repository contains the complete codebase, datasets, and outputs from our research project:  
 **"Public Perception of Self-Driving Cars: A Sentiment Analysis of YouTube Comments Using BERT"**  
@@ -103,7 +103,7 @@ nltk.download('omw-1.4')
 If you use this project or refer to it in your work, please cite:
 
 ```
-"Public Perception of Self-Driving Cars: A Sentiment Analysis of YouTube Comments Using BERT", 2025.
+"Public Perception of Self-Driving Cars: A Sentiment Analysis of YouTube Comments Using BERT, VADER, and LDA", 2025.
 ```
 
 ---
