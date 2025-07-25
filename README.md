@@ -1,4 +1,4 @@
-# 🚘 Sentiment Analysis of Public Perception on Self-Driving Cars using BERT, VADER, and LDA
+# Sentiment Analysis of Public Perception on Self-Driving Cars using BERT, VADER, and LDA
 
 This repository contains the complete codebase, datasets, and outputs from our research project:  
 **"Public Perception of Self-Driving Cars: A Sentiment Analysis of YouTube Comments Using BERT"**  
@@ -6,17 +6,17 @@ We analyzed over **80,000 YouTube comments** related to autonomous vehicle techn
 
 ---
 
-## 📌 Project Highlights
+## Project Highlights
 
-- 🔍 **Dataset**: 80,000 YouTube comments from videos related to self-driving cars and autonomous vehicles.
-- 🧼 **Preprocessing**: HTML cleaning, stopword removal, lemmatization, and noise filtering using NLTK.
-- 💬 **Sentiment Analysis**:
+- **Dataset**: 80,000 YouTube comments from videos related to self-driving cars and autonomous vehicles.
+- **Preprocessing**: HTML cleaning, stopword removal, lemmatization, and noise filtering using NLTK.
+- **Sentiment Analysis**:
   - Rule-based sentiment tagging with **VADER**
   - Deep contextual sentiment classification using **BERT** (`cardiffnlp/twitter-roberta-base-sentiment`)
-- 🧠 **Topic Modeling**:
+- **Topic Modeling**:
   - Unsupervised topic discovery using **Latent Dirichlet Allocation (LDA)**
   - Human-interpretable topic labeling and visualization
-- 📊 **Visualizations**:
+- **Visualizations**:
   - Sentiment distribution bar/pie charts
   - Word clouds for sentiment and topic
   - Topic-wise sentiment breakdown
@@ -24,7 +24,7 @@ We analyzed over **80,000 YouTube comments** related to autonomous vehicle techn
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```bash
 .
@@ -38,7 +38,7 @@ We analyzed over **80,000 YouTube comments** related to autonomous vehicle techn
 
 ---
 
-## 🛠️ Installation & Requirements
+## Installation & Requirements
 
 This project runs on **Python 3.8+** and is compatible with **Google Colab**.
 
@@ -59,7 +59,7 @@ nltk.download('omw-1.4')
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
 
@@ -82,7 +82,7 @@ nltk.download('omw-1.4')
 
 ---
 
-### 📈 Key Findings (Updated)
+### Key Findings (Updated)
 
 * Out of \~80,000 public comments, **neutral sentiment** was most dominant, comprising **\~44%** of total responses. These comments often presented fact-based observations, cautious optimism, or unresolved opinions.
 * **\~40% of the comments expressed negative sentiment**, highlighting recurring concerns about self-driving cars related to **safety risks, technological immaturity, control issues, and ethical dilemmas**.
@@ -98,7 +98,7 @@ nltk.download('omw-1.4')
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use this project or refer to it in your work, please cite:
 
@@ -108,19 +108,19 @@ If you use this project or refer to it in your work, please cite:
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 * Samar Pratap Singh — [@samar-pratap-singh230](https://github.com/samar-pratap-singh230)
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🌐 Acknowledgements
+## Acknowledgements
 
 * [HuggingFace Transformers](https://huggingface.co)
 * [NLTK](https://www.nltk.org/)
